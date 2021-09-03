@@ -5,7 +5,10 @@
 
 body {
     margin: 0;
-    background-color: rgb(31, 29, 29);
+    background-image: url("images/1920x1080-black-solid-color-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
 }
 
 main {
