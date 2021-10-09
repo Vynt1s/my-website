@@ -5,32 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nes0x">
-    <meta name="description" content="Strona Vyntisa">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="description" content="Strona z portfoliem Vyntisa.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/logo.png">
-    <title>Strona główna | Vyntis Design</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <title>Vyntis | Strona główna</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="portfolio.html">Portfolio |</a></li>
-                <li><a href="/">Strona główna |</a></li>
-                <li><a href="about.html">O mnie</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="#home">Strona główna</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
     <main>
 
-        <p>Witaj</p>
-        <p data-font>wybierz z zakładek powyżej co Cię interesuje</p>
-        <img width="300" src="images/logo.png" alt="logo">
+        <section id="home">
+            <h1 class="section-heading">O mnie</h1>
+            <div class="text">
+                <p>Jestem Vynt1s,</p>
+                <p>Zajmuje się robieniem grafik oraz rysowaniem.</p>
+                <p>Grafiki robię za darmo w formie nauki.</p>
+                <p>Jeśli potrzebujesz jakieś grafiki to skontaktuj się ze mną za pomocą Discorda, który jest poniżej.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1 class="section-heading">Moje prace</h1>
+            <div class="container-projects">
+                <div class="project">
+                    <p><img src="images/baner.jpg" alt="" width="300px" height="200px"></p>
+                    <p>Baner</p>
+                </div>
+                <div class="project">
+                    <p><img src="images/Grot.jpg" alt="" width="300px" height="200px"></p>
+                    <p>Logo</p>
+                </div>
+                <div class="project">
+                    <p><img src="images/Krzaku.jpg" alt="" width="300px" height="200px"></p>
+                    <p>Miniaturka</p>
+                </div>
+                <div class="project">
+                    <p><img src="images/KrzakuBaner.jpg" alt="" width="300px" height="200px"></p>
+                    <p>Baner</p>
+                </div>
+                <div class="project">
+                    <p><img src="images/logo.jpg" alt="" width="300px" height="200px"></p>
+                    <p>Logo</p>
+                </div>
+                <div class="project">
+                    <p><img src="images/miniaturka2.jpg" alt="" width="300px" height="200px"></p>
+                    <p>Miniaturka</p>
+                </div>
+                <div class="project">
+                    <p><img src="images/Ozorovsky.jpg" alt="" width="300px" height="200px"></p>
+                    <p>Baner</p>
+                </div>
+                <div class="project">
+                    <p><img src="images/SkyCrafts.jpg" alt="" width="300px" height="200px"></p>
+                    <p>Logo</p>
+                </div>
+            </div>
+
+        </section>
+
     </main>
+
     <footer id="contact">
-        <p>
-            Discord: Vynt1s#8023 |
-            <a target="blank" href="https://dc.vyntis.cf">Mój serwer discord</a>
-        <p>
+
+        <div class="container-contact">
+            <h1 class="section-heading">Kontakt</h1>
+            <p>
+                <a href="https://dc.vyntis.cf" target="blank"> <i class="fab fa-discord"> </i> Discord</a>
+            </p> 
+        </div>
     </footer>
 </body>
 </html>
